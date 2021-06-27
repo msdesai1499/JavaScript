@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<title>Travel Desk</title>
+</head>
+
+<body>
+
+	<div id="success" class="alert alert-success alert-dismissible fade show" role="alert">
+		<strong>Success!</strong> Your travel request has been successfully submitted.
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+
+
+	<div class="container mt-3">
+		<h1>Welcome to Dragon Travel Desk</h1>
+		<form class="mb-3 ">
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control " id="name" placeholder="Mandar Desai">
+				<label for="name">UserName</label>
+				<div class="invalid-feedback">
+					Please provide a valid UserName
+				</div>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+			</div>
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="email" placeholder="name@example.com">
+				<label for="email">Email address</label>
+				<div class="invalid-feedback">
+					Please provide a valid Email
+				</div>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+			</div>
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="password" placeholder="Password">
+				<label for="password">Password</label>
+				<div class="invalid-feedback">
+					Please provide a valid Email
+				</div>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+			</div>
+
+			<select class="form-select mb-3" id="car" aria-label="Default select example">
+				<option selected>Select Your Car</option>
+				<option value="1">Swift Dzire</option>
+				<option value="2">Omni</option>
+				<option value="3">Alto</option>
+				<option value="3">Wagnor</option>
+			</select>
+
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="address" placeholder="Pune">
+				<label for="address">Address</label>
+				<div class="invalid-feedback">
+					Please provide a valid Email
+				</div>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+			</div>
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="phone" placeholder="9876543210">
+				<label for="phone">Phone Number</label>
+				<div class="invalid-feedback">
+					Please provide a valid Email
+				</div>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+			</div>
+			<div class="form-floating mb-3">
+				<input type="text" class="form-control" id="message" placeholder="XYZ">
+				<label for="message">Any other message</label>
+				<div class="invalid-feedback">
+					Please provide a valid Email
+				</div>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+	</div>
+
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+	<!-- Option 2: Separate Popper and Bootstrap JS -->
+	<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+	<script src="index.js"></script>
+</body>
+
+</html>
